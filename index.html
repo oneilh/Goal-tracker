@@ -38,7 +38,20 @@
         />
         <button id="add-revenue">Add Revenue</button>
       </div>
+      <button id="reset-data" class="reset-btn">Reset to Default</button>
     </div>
+
+    <!-- Warning Modal -->
+    <div class="modal hidden">
+      <div class="modal-content">
+        <p>Are you sure you want to reset the data to default values?</p>
+        <div class="modal-actions">
+          <button id="confirm-reset" class="confirm-btn">Yes</button>
+          <button id="cancel-reset" class="cancel-btn">Cancel</button>
+        </div>
+      </div>
+    </div>
+
     <script src="./script.js"></script>
   </body>
 </html>
