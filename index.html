@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Business Goal Tracker</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="goal-tracker-app">
+      <h1>Business Goal Tracker</h1>
+      <div class="goal-section">
+        <h2>Student Goal</h2>
+        <div class="progress-circle" id="student-progress"></div>
+        <p class="goal-data">
+          Goal: <b>240 Students</b> <br />
+          Current: <span id="current-students">0</span>
+        </p>
+        <input
+          type="number"
+          id="student-input"
+          placeholder="Enter new students"
+        />
+        <button id="add-students">Add Students</button>
+      </div>
+      <div class="goal-section">
+        <h2>Revenue Goal</h2>
+        <div class="progress-circle" id="revenue-progress"></div>
+        <p class="goal-data">
+          Goal: <b>₦30,000,000</b> <br />
+          Current: ₦<span id="current-revenue">0</span>
+        </p>
+        <input
+          type="number"
+          id="revenue-input"
+          placeholder="Enter revenue (₦)"
+        />
+        <button id="add-revenue">Add Revenue</button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

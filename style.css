@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .goal-tracker-app {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .goal-section {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    color: #bc2f63;
+    margin-bottom: 10px;
+  }
+  
+  .progress-circle {
+    margin: 10px auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: conic-gradient(
+      #bc2f63 var(--progress, 0%),
+      #e0e0e0 var(--progress, 0%)
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .goal-data {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    width: 100%;
+    background: #bc2f63;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background: #a02555;
+  }
+  
