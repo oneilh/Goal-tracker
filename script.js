@@ -1,5 +1,5 @@
-const hardcodedStudents = 3;
-const hardcodedRevenue = 280000;
+const hardcodedStudents = 3 + 1;
+const hardcodedRevenue = 280000 + 75000 + 50000;
 
 function initializeStorage() {
   const storedStudents = parseInt(localStorage.getItem("currentStudents")) || 0;
